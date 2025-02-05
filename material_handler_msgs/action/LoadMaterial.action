@@ -1,0 +1,12 @@
+#goal definition
+
+std_msgs/Header header
+string[] name
+float64[] position
+int64 material_id
+string location
+---
+#result definition
+builtin_interfaces/Duration time
+bool material_loaded
+---
